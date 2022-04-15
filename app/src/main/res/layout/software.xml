@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/sp_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/menu"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose what \nto learn"
+        android:textSize="45dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/radobe_xd"/>
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adobe XD"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:textColor="#305F72"
+                android:layout_toRightOf="@id/i1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32 Courses"
+                android:textSize="18dp"
+                android:textColor="#F18C8E"
+                android:layout_toRightOf="@id/i1"
+                android:layout_below="@id/t1"
+                android:layout_marginLeft="20dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/active_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/i2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/rsketch_icon"/>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sketch"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:textColor="#305F72"
+                android:layout_toRightOf="@id/i2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32 Courses"
+                android:textSize="18dp"
+                android:textColor="#F18C8E"
+                android:layout_toRightOf="@id/i2"
+                android:layout_below="@id/t2"
+                android:layout_marginLeft="20dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/active_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/i3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/rafter_effect"/>
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="After Effects"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:textColor="#305F72"
+                android:layout_toRightOf="@id/i3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32 Courses"
+                android:textSize="18dp"
+                android:textColor="#F18C8E"
+                android:layout_toRightOf="@id/i3"
+                android:layout_below="@id/t3"
+                android:layout_marginLeft="20dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/inactive_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/i4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/rfigma_icon"/>
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Figma"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                android:textColor="#305F72"
+                android:layout_toRightOf="@id/i4"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32 Courses"
+                android:textSize="18dp"
+                android:textColor="#F18C8E"
+                android:layout_toRightOf="@id/i4"
+                android:layout_below="@id/t4"
+                android:layout_marginLeft="20dp" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/active_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continue with 3"
+                android:textColor="#F18C8E"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="60dp"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/pink_button_arrow"
+                android:layout_marginLeft="80dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
