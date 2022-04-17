@@ -144,13 +144,13 @@
                     android:id="@+id/t1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Adobe XD\nPrototyping"
+                    android:layout_marginLeft="25dp"
                     android:layout_toRightOf="@id/i1"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textColor="#305F72"
                     android:letterSpacing="0.03"
-                    android:layout_marginLeft="25dp"/>
+                    android:text="Adobe XD\nPrototyping"
+                    android:textColor="#305F72"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"

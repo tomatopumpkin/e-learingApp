@@ -31,14 +31,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="UI/UX\nCourses"
-        android:textSize="45dp"
-        android:textColor="#fff"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif-black"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:layout_marginTop="20dp"/>
+        android:text="Android\nCourses"
+        android:textColor="#fff"
+        android:textSize="45dp"
+        android:textStyle="bold" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -66,20 +66,20 @@
                     android:id="@+id/i1"
                     android:layout_width="50dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/adobe_xd"/>
+                    android:src="@drawable/adobe_xd" />
 
                 <TextView
                     android:id="@+id/t1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Adobe XD\nPrototyping"
-                    android:layout_toRightOf="@id/i1"
-                    android:textSize="18dp"
-                    android:textStyle="bold"
-                    android:textColor="#305F72"
-                    android:letterSpacing="0.03"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="6dp"/>
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/i1"
+                    android:letterSpacing="0.03"
+                    android:text="Adobe XD\nPrototyping"
+                    android:textColor="#305F72"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -95,22 +95,22 @@
                     android:id="@+id/p1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="25%"
-                    android:textSize="16dp"
-                    android:textStyle="bold"
-                    android:textColor="#305F72"
                     android:layout_toRightOf="@id/t1"
                     android:paddingLeft="50dp"
-                    android:paddingTop="25dp"/>
+                    android:paddingTop="25dp"
+                    android:text="25%"
+                    android:textColor="#305F72"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:layout_width="43dp"
                     android:layout_height="43dp"
-                    android:src="@drawable/play_button"
-                    android:layout_toRightOf="@id/p1"
+                    android:layout_marginLeft="15dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginRight="5dp"
-                    android:layout_marginLeft="15dp"/>
+                    android:layout_toRightOf="@id/p1"
+                    android:src="@drawable/play_button" />
 
             </RelativeLayout>
 
@@ -279,7 +279,7 @@
                     android:id="@+id/i4"
                     android:layout_width="50dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/figma_icon"/>
+                    android:src="@drawable/figma_icon" />
 
                 <TextView
                     android:id="@+id/t4"
