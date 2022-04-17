@@ -72,11 +72,11 @@
                     android:id="@+id/t1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="21dp"
                     android:layout_marginTop="6dp"
                     android:layout_toRightOf="@id/i1"
                     android:letterSpacing="0.03"
-                    android:text="Adobe XD\nPrototyping"
+                    android:text="Change Number"
                     android:textColor="#305F72"
                     android:textSize="18dp"
                     android:textStyle="bold" />
@@ -84,32 +84,22 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="10 hours, 19 lessons"
-                    android:layout_toRightOf="@id/i1"
                     android:layout_below="@id/t1"
-                    android:textSize="12dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/i1"
+                        android:text="บทที่ 3 ตัวอย่างที่ ...."
                     android:textColor="#F18C8E"
-                    android:layout_marginLeft="20dp"/>
-
-                <TextView
-                    android:id="@+id/p1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/t1"
-                    android:paddingLeft="50dp"
-                    android:paddingTop="25dp"
-                    android:text="25%"
-                    android:textColor="#305F72"
-                    android:textSize="16dp"
-                    android:textStyle="bold" />
+                    android:textSize="12dp" />
 
                 <ImageView
                     android:layout_width="43dp"
                     android:layout_height="43dp"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginLeft="56dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginRight="5dp"
-                    android:layout_toRightOf="@id/p1"
+                    android:layout_toEndOf="@+id/t1"
+                    android:layout_toRightOf="@+id/t1"
                     android:src="@drawable/play_button" />
 
             </RelativeLayout>
@@ -143,14 +133,14 @@
                     android:id="@+id/t2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sketch \nPrototyping"
-                    android:layout_toRightOf="@id/i2"
-                    android:textSize="18dp"
-                    android:textStyle="bold"
-                    android:textColor="#305F72"
-                    android:letterSpacing="0.03"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="6dp"/>
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@id/i2"
+                    android:letterSpacing="0.03"
+                    android:text="Event Management \nApplication"
+                    android:textColor="#305F72"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -162,26 +152,14 @@
                     android:textColor="#F18C8E"
                     android:layout_marginLeft="20dp"/>
 
-                <TextView
-                    android:id="@+id/p2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="25%"
-                    android:textSize="16dp"
-                    android:textStyle="bold"
-                    android:textColor="#305F72"
-                    android:layout_toRightOf="@id/t2"
-                    android:paddingLeft="50dp"
-                    android:paddingTop="25dp"/>
-
                 <ImageView
                     android:layout_width="43dp"
                     android:layout_height="43dp"
-                    android:src="@drawable/play_button"
-                    android:layout_toRightOf="@id/p2"
+                    android:layout_marginLeft="15dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginRight="5dp"
-                    android:layout_marginLeft="15dp"/>
+                    android:layout_toRightOf="@id/p2"
+                    android:src="@drawable/play_button" />
 
             </RelativeLayout>
 
@@ -208,7 +186,7 @@
                     android:id="@+id/i3"
                     android:layout_width="50dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/after_effect_icon"/>
+                    android:src="@drawable/android" />
 
                 <TextView
                     android:id="@+id/t3"
@@ -279,7 +257,7 @@
                     android:id="@+id/i4"
                     android:layout_width="50dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/figma_icon" />
+                    android:src="@drawable/android" />
 
                 <TextView
                     android:id="@+id/t4"
@@ -350,7 +328,7 @@
                     android:id="@+id/i5"
                     android:layout_width="50dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/photoshop_icon"/>
+                    android:src="@drawable/android" />
 
                 <TextView
                     android:id="@+id/t5"
