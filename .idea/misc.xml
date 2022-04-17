@@ -3,12 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23791568037392438" />
-        <entry key="app/src/main/res/layout/catagory.xml" value="0.32842413565066575" />
+        <entry key="..\:/Users/jatur/AndroidStudioProjects/e-learingApp/app/src/main/res/layout/activity_catagory.xml" value="0.33" />
+        <entry key="..\:/Users/jatur/AndroidStudioProjects/e-learingApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/jatur/AndroidStudioProjects/e-learingApp/app/src/main/res/layout/activity_watch_change_number.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/jatur/AndroidStudioProjects/e-learingApp/app/src/main/res/layout/catagory.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/jatur/AndroidStudioProjects/e-learingApp/app/src/main/res/layout/lession.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/jatur/AndroidStudioProjects/e-learingApp/app/src/main/res/layout/plan.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/jatur/AndroidStudioProjects/e-learingApp/app/src/main/res/layout/software.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.28748080488564315" />
+        <entry key="app/src/main/res/layout/catagory.xml" value="0.4200710479573712" />
         <entry key="app/src/main/res/layout/course.xml" value="0.25" />
         <entry key="app/src/main/res/layout/lession.xml" value="0.21898148148148147" />
         <entry key="app/src/main/res/layout/plan.xml" value="0.2008708247432002" />
-        <entry key="app/src/main/res/layout/software.xml" value="0.18069565384476272" />
+        <entry key="app/src/main/res/layout/software.xml" value="0.21898148148148147" />
       </map>
     </option>
   </component>
