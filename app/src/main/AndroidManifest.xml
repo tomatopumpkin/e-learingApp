@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".lession"
+            android:exported="false" />
+        <activity
             android:name=".watch_ChangeNumber"
             android:exported="false" />
         <activity

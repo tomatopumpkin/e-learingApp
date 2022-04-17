@@ -29,7 +29,7 @@ public class catagory extends AppCompatActivity implements View.OnClickListener 
         int id = v.getId();
 
         if(R.id.btnChange == id){
-            Intent textSwitcherActivity = new Intent(this, catagory.class);
+            Intent textSwitcherActivity = new Intent(this, lession.class);
             startActivity(textSwitcherActivity);
         }
 
