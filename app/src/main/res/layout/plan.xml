@@ -31,23 +31,23 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pick\nyour plan"
-        android:textSize="45dp"
-        android:textColor="#fff"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif-black"
         android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:layout_marginTop="30dp"/>
+        android:text="Pick\nyour plan"
+        android:textColor="#fff"
+        android:textSize="45dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
+        android:layout_height="532dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="90dp"
         android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp">
+        android:gravity="center"
+        android:orientation="vertical">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -58,174 +58,174 @@
                 android:id="@+id/ct1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Free Trial"
-                android:textSize="25dp"
-                android:textStyle="bold"
-                android:textColor="#F18C8E"
                 android:layout_marginLeft="30dp"
-                android:layout_marginTop="16dp"/>
+                android:layout_marginTop="16dp"
+                android:text="Free Trial"
+                android:textColor="#F18C8E"
+                android:textSize="25dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="14 Days"
-                android:textSize="20dp"
-                android:textColor="#F18C8E"
                 android:layout_below="@id/ct1"
-                android:layout_marginLeft="30dp" />
+                android:layout_marginLeft="30dp"
+                android:text="14 Days"
+                android:textColor="#F18C8E"
+                android:textSize="20dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="$0"
-                android:textSize="35dp"
-                android:textStyle="bold"
-                android:textColor="#F18C8E"
-                android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginTop="8dp"/>
+                android:text="$0"
+                android:textColor="#F18C8E"
+                android:textSize="35dp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="@drawable/box_inactive"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="15dp"
+            android:background="@drawable/box_inactive">
 
             <TextView
                 android:id="@+id/ct2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Medium"
-                android:textSize="28dp"
-                android:textStyle="bold"
-                android:textColor="#305F72"
                 android:layout_marginLeft="30dp"
-                android:layout_marginTop="16dp"/>
+                android:layout_marginTop="16dp"
+                android:text="Medium"
+                android:textColor="#305F72"
+                android:textSize="28dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5 courses/month"
-                android:textSize="20dp"
-                android:textColor="#F18C8E"
                 android:layout_below="@id/ct2"
-                android:layout_marginLeft="30dp" />
+                android:layout_marginLeft="30dp"
+                android:text="5 courses/month"
+                android:textColor="#F18C8E"
+                android:textSize="20dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="$14.99"
-                android:textSize="35dp"
-                android:textStyle="bold"
-                android:textColor="#F18C8E"
-                android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginTop="8dp"/>
+                android:text="$14.99"
+                android:textColor="#F18C8E"
+                android:textSize="35dp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="@drawable/box_inactive"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="15dp"
+            android:background="@drawable/box_inactive">
 
             <TextView
                 android:id="@+id/ct3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Intermediate"
-                android:textSize="28dp"
-                android:textStyle="bold"
-                android:textColor="#305F72"
                 android:layout_marginLeft="30dp"
-                android:layout_marginTop="16dp"/>
+                android:layout_marginTop="16dp"
+                android:text="Intermediate"
+                android:textColor="#305F72"
+                android:textSize="28dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="10 courses/month"
-                android:textSize="20dp"
-                android:textColor="#F18C8E"
                 android:layout_below="@id/ct3"
-                android:layout_marginLeft="30dp" />
+                android:layout_marginLeft="30dp"
+                android:text="10 courses/month"
+                android:textColor="#F18C8E"
+                android:textSize="20dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="$24.99"
-                android:textSize="35dp"
-                android:textStyle="bold"
-                android:textColor="#F18C8E"
-                android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginTop="8dp"/>
+                android:text="$24.99"
+                android:textColor="#F18C8E"
+                android:textSize="35dp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:background="@drawable/visa_box"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="15dp"
+            android:background="@drawable/visa_box">
 
             <ImageView
                 android:id="@+id/i1"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/visa_icon"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/visa_icon" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Visa Card *079"
-                android:layout_toRightOf="@id/i1"
-                android:textSize="22dp"
-                android:textStyle="bold"
-                android:textColor="#305F72"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="30dp"
-                android:layout_marginTop="8dp"/>
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/i1"
+                android:text="Visa Card *079"
+                android:textColor="#305F72"
+                android:textSize="22dp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="15dp"
-                android:src="@drawable/down_arrow"
-                android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:layout_marginLeft="30dp"/>
+                android:src="@drawable/down_arrow" />
 
         </RelativeLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:background="@drawable/button_bg"
             android:layout_marginTop="20dp"
+            android:background="@drawable/button_bg"
             android:gravity="center_vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
                 android:text="Continue with payment"
                 android:textColor="#F18C8E"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="50dp"/>
+                android:textStyle="bold" />
 
             <ImageView
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/pink_button_arrow"
-                android:layout_marginLeft="70dp"/>
+                android:layout_marginLeft="70dp"
+                android:src="@drawable/pink_button_arrow" />
 
         </LinearLayout>
 
