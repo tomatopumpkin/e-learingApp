@@ -66,7 +66,7 @@
                     android:id="@+id/i1"
                     android:layout_width="50dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/adobe_xd" />
+                    android:src="@drawable/android" />
 
                 <TextView
                     android:id="@+id/t1"
@@ -137,7 +137,7 @@
                     android:id="@+id/i2"
                     android:layout_width="50dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/sketck_icon"/>
+                    android:src="@drawable/android" />
 
                 <TextView
                     android:id="@+id/t2"
